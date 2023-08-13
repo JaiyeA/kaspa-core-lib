@@ -1,7 +1,8 @@
 'use strict';
 
 
-const secp256k1 = require('secp256k1-wasm');
+// const secp256k1 = require('secp256k1-wasm');
+const secp256k1 = require('secp256k1');
 const blake2b = require('blake2b-wasm');
 
 var kaspacore = module.exports;
